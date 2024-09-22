@@ -49,7 +49,7 @@ const Arena = () => {
                   <i className="fas fa-shield-alt"></i>
                 </div>
                 <h3>Secure & Transparent</h3>
-                <p>Our blockchain-based platform ensures the highest level of security and transparency.</p>
+                <p>Our platform ensures the highest level of security and transparency.</p>
               </div>
             </div>
           </div>
@@ -81,6 +81,13 @@ const Arena = () => {
                 </div>
                 <div className="how-it-works-icon">3</div>
               </div>
+              <div className="how-it-works-item">
+                <div className="how-it-works-content">
+                  <h3>Get Funded</h3>
+                  <p>Watch as backers support your project and help bring your idea to life. Our transparent system ensures smooth transactions and updates.</p>
+                </div>
+                <div className="how-it-works-icon">4</div>
+              </div>
             </div>
           </div>
         </section>
@@ -88,7 +95,7 @@ const Arena = () => {
 
       <footer id="contact">
         <div className="container">
-          <p>&copy; 2023 Arena Crowdfunding Platform. All rights reserved.</p>
+          <p>&copy; 2024 Arena Crowdfunding Platform. All rights reserved.</p>
           <p>Contact us: info@arenacrowdfunding.com</p>
         </div>
       </footer>

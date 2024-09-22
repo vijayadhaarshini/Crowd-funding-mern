@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './details.css'; 
+import axios from 'axios';
 
 const Start = () => {
   const [step, setStep] = useState(1);
@@ -19,6 +20,38 @@ const Start = () => {
     }));
   };
 
+  const handleSubmit = async (e) => {
+    console.log('inside submit'); 
+    console.log(projectDetails);
+    const parsedProjectDetails = {
+      ...projectDetails,
+      fundingGoal: Number(projectDetails.fundingGoal),
+      duration: Number(projectDetails.duration),
+    };
+    const projectDetailsJson = JSON.stringify(parsedProjectDetails);
+    console.log('Project Details JSON:', projectDetailsJson);
+    e.preventDefault();
+    try {
+      const response = await fetch('http://localhost:5000/addproject', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: projectDetailsJson,
+      });
+
+      if (response.ok) {
+        const data = await response.json();
+        console.log('Project submitted successfully:', data);
+        // Optionally, you can redirect the user or show a success message
+      } else {
+        console.error('Failed to submit project:', response.statusText);
+      }
+    } catch (error) {
+      console.error('Error submitting project:', error);
+    }
+  };
+
   const nextStep = () => {
     setStep(prevStep => prevStep + 1);
   };
@@ -27,12 +60,6 @@ const Start = () => {
     setStep(prevStep => prevStep - 1);
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Here you would typically send the data to your backend
-    console.log('Project details submitted:', projectDetails);
-    // Redirect to a success page or show a success message
-  };
 
   return (
     <div className="start-journey-container">
@@ -114,7 +141,7 @@ const Start = () => {
               <p><strong>Duration:</strong> {projectDetails.duration} days</p>
             </div>
             <button type="button" onClick={prevStep}>Previous</button>
-            <button type="submit">Submit Project</button>
+            <button type="submit" onSubmit={handleSubmit}>Submit Project</button>
           </div>
         )}
       </form>

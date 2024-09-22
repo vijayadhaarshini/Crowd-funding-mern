@@ -1,0 +1,16 @@
+authentication - session storage
+components - home page
+states 
+props
+router - to changes pages  
+life cycle methods - component unmount(e.g. reset), didmount (after), update (while filter )
+
+screens 
+authentication - 2x
+profile 
+listing page 
+
+version control 
+
+
+pw for mongo yq0SqPp06RDn7FIJ

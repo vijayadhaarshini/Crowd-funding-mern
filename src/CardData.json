@@ -1,0 +1,102 @@
+[
+    {
+        "profile_image": "https://media.sproutsocial.com/uploads/2022/06/profile-picture.jpeg",
+        "profile_name": "John Doe",
+        "profile": "john_doe",
+        "posts": 120,
+        "followers": 1500,
+        "following": 300,
+        "headline": "Web Developer",
+        "description": "Passionate web developer with 5 years of experience in creating dynamic websites. Skilled in HTML, CSS, JavaScript, and various web development frameworks. Adept at problem-solving and debugging, with a keen eye for detail and a commitment to delivering high-quality, user-friendly web applications."
+    },
+    {
+        "profile_image": "https://example.com/image2.jpg",
+        "profile_name": "Jane Smith",
+        "profile": "jane_smith",
+        "posts": 200,
+        "followers": 2500,
+        "following": 500,
+        "headline": "Graphic Designer",
+        "description": "Creative graphic designer specializing in branding and digital illustration. Experienced in Adobe Creative Suite, including Photoshop, Illustrator, and InDesign. Known for a unique artistic style and the ability to translate client visions into compelling visual designs that effectively communicate brand messages."
+    },
+    {
+        "profile_image": "https://example.com/image3.jpg",
+        "profile_name": "Alice Johnson",
+        "profile": "alice_johnson",
+        "posts": 180,
+        "followers": 1800,
+        "following": 400,
+        "headline": "Content Writer",
+        "description": "Experienced content writer with a knack for crafting engaging and SEO-friendly content. Proficient in various writing styles, from blog posts and articles to social media content and marketing copy. Dedicated to producing high-quality content that resonates with audiences and drives engagement."
+    },
+    {
+        "profile_image": "https://example.com/image4.jpg",
+        "profile_name": "Bob Brown",
+        "profile": "bob_brown",
+        "posts": 150,
+        "followers": 1700,
+        "following": 350,
+        "headline": "Digital Marketer",
+        "description": "Digital marketing expert with a focus on social media strategy and analytics. Experienced in developing and executing comprehensive digital marketing campaigns that drive brand awareness and engagement. Skilled in using data and analytics to optimize marketing efforts and achieve measurable results."
+    },
+    {
+        "profile_image": "https://example.com/image5.jpg",
+        "profile_name": "Charlie Davis",
+        "profile": "charlie_davis",
+        "posts": 220,
+        "followers": 3000,
+        "following": 600,
+        "headline": "Photographer",
+        "description": "Professional photographer with a passion for capturing stunning landscapes and portraits. Skilled in various photography techniques and post-processing software. Committed to creating visually compelling images that tell a story and evoke emotion. Experienced in working with clients to deliver high-quality photographic services."
+    },
+    {
+        "profile_image": "https://example.com/image6.jpg",
+        "profile_name": "Diana Evans",
+        "profile": "diana_evans",
+        "posts": 170,
+        "followers": 1600,
+        "following": 450,
+        "headline": "UI/UX Designer",
+        "description": "UI/UX designer dedicated to creating intuitive and user-friendly interfaces. Experienced in user research, wireframing, prototyping, and usability testing. Passionate about improving user experiences through thoughtful design and a deep understanding of user needs and behaviors."
+    },
+    {
+        "profile_image": "https://example.com/image7.jpg",
+        "profile_name": "Ethan Foster",
+        "profile": "ethan_foster",
+        "posts": 190,
+        "followers": 2100,
+        "following": 480,
+        "headline": "Software Engineer",
+        "description": "Software engineer with expertise in developing scalable web applications. Proficient in multiple programming languages and frameworks, including JavaScript, Python, and React. Committed to writing clean, efficient code and continuously improving development processes. Experienced in collaborating with cross-functional teams to deliver high-quality software solutions."
+    },
+    {
+        "profile_image": "https://example.com/image8.jpg",
+        "profile_name": "Fiona Green",
+        "profile": "fiona_green",
+        "posts": 130,
+        "followers": 1400,
+        "following": 320,
+        "headline": "Data Scientist",
+        "description": "Data scientist with a strong background in machine learning and data analysis. Skilled in using statistical methods and algorithms to extract insights from large datasets. Experienced in working with various data tools and programming languages, including Python, R, and SQL. Passionate about leveraging data to drive business decisions and innovation."
+    },
+    {
+        "profile_image": "https://example.com/image9.jpg",
+        "profile_name": "George Harris",
+        "profile": "george_harris",
+        "posts": 210,
+        "followers": 2800,
+        "following": 550,
+        "headline": "Entrepreneur",
+        "description": "Entrepreneur with a passion for innovation and building successful startups. Experienced in developing business strategies, securing funding, and leading teams to achieve business goals. Committed to creating products and services that solve real-world problems and deliver value to customers."
+    },
+    {
+        "profile_image": "https://example.com/image10.jpg",
+        "profile_name": "Hannah White",
+        "profile": "hannah_white",
+        "posts": 160,
+        "followers": 1900,
+        "following": 370,
+        "headline": "Product Manager",
+        "description": "Product manager with experience in leading cross-functional teams to deliver high-quality products. Skilled in product lifecycle management, from ideation and development to launch and iteration. Passionate about creating products that meet user needs and drive business growth. Experienced in using data and user feedback to inform product decisions."
+    }
+]
