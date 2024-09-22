@@ -1,0 +1,22 @@
+.card-stats-horizontal {
+    display: flex;
+    flex-direction: row; /* Align items horizontally */
+    gap: 15px; /* Space between stats */
+    justify-content: space-between; /* Distribute stats evenly across the full length */
+    width: 100%; /* Ensure it takes the full width of the card */
+    align-items: center; /* Vertically center the words relative to the image */
+}
+
+.card-image {
+    border-radius: 50%; /* Make the image circular */
+    width: 100px; /* Set the width to a small size */
+    height: 100px; /* Set the height to a small size */
+    object-fit: cover; /* Ensure the image covers the area */
+    object-position: top; /* Crop the image to the top */
+}
+
+.card-stat {
+    display: flex;
+    flex-direction: column; /* Arrange title and count vertically */
+    align-items: flex-start; /* Left align the text */
+}

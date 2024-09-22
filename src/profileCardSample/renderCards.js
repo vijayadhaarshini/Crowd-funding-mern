@@ -13,9 +13,12 @@ const RenderCards = () => {
 
     return (
         <div>
-            <SampleCard data={data} />
+            {data.map((item, index) => (
+                <div key={index}>
+                    <SampleCard item={item} />
+                </div>
+            ))}
         </div>
-    );
-};
+    );};
 
 export default RenderCards;

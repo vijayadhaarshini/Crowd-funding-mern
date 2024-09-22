@@ -1,33 +1,13 @@
 /* Import Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&display=swap');
 
 /* Set full page background color */
 
 /* Align card-stats horizontally using flex */
-.card-stats-horizontal {
-    display: flex;
-    flex-direction: row; /* Align items horizontally */
-    gap: 15px; /* Space between stats */
-    justify-content: space-between; /* Distribute stats evenly across the full length */
-    width: 100%; /* Ensure it takes the full width of the card */
-}
 
-.card-image {
-    border-radius: 50%; /* Make the image circular */
-    width: 100px; /* Set the width to a small size */
-    height: 100px; /* Set the height to a small size */
-    object-fit: cover; /* Ensure the image covers the area */
-    object-position: top; /* Crop the image to the top */
-}
-
-.card-stat {
-    display: flex;
-    flex-direction: column; /* Arrange title and count vertically */
-    align-items: flex-start; /* Left align the text */
-}
 body {
-    background-color: rgb(13, 152, 177);
-    font-family: 'Roboto', sans-serif;
+    background-color: rgba(255, 247, 136, 0.829);
+    font-family: 'Lexend', sans-serif;
     margin: 0;
     padding: 0;
     overflow-x: hidden; /* Prevent horizontal scroll on body */
@@ -38,15 +18,14 @@ body {
     display: flex;
     flex-direction: column; /* Change to column for vertical layout */
     overflow-y: auto; /* Enable vertical scroll */
-    padding: 20px;
-    background-color: #6ac1db; /* Set background color to tan */
+    padding: 30px;
     align-items: center; /* Center the cards horizontally */
 }
 
 /* Individual card styling */
 .card {
     background-color: white;
-    border-radius: 15px;
+    border-radius: 60px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 20px 0; /* Adjust margin for vertical spacing */
     padding: 20px;
