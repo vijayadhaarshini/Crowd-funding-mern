@@ -18,8 +18,11 @@ START PROJECT PAGE:
 
 DATABASE:
 COLLECTIONS:
+![Screenshot from 2024-11-03 11-16-44](https://github.com/user-attachments/assets/8010b6aa-cd36-46d5-9f43-4aebb4acd243)
 
 NEW DOCUMENTS IN ARENA.PROJECTS (ADDED FROM PROJECT PAGE):
+![Screenshot from 2024-11-03 11-16-52](https://github.com/user-attachments/assets/b3967dd2-a52d-4d31-b5d7-0491d58906b8)
+![Screenshot from 2024-11-03 11-17-06](https://github.com/user-attachments/assets/69c5e1fe-a696-47e4-b565-dbc429d20b52)
 
 
 LISTING PAGE:
