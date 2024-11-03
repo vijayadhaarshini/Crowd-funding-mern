@@ -16,12 +16,18 @@ START PROJECT PAGE:
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/e3a2e533-0eb9-44ec-bd4c-99be8a7ce713">
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/8ac40328-82aa-45dc-a6c5-b5aac1801fd2">
 
-LISTING PAGE:
+DATABASE:
+COLLECTIONS:
 
+NEW DOCUMENTS IN ARENA.PROJECTS (ADDED FROM PROJECT PAGE):
+
+
+LISTING PAGE:
+(WITH SEARCH AND FILTER OPTIONS)
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/50966c1a-c0e6-435d-9490-ce7f4be8cfca">
 
 PROFILE PAGE:
-
+(WITH DYNAMIC CHANGE IN PROJECT FUNDING STATUS)
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/6678505b-134e-4741-9eb0-47501a9c6282">
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/056021aa-16cd-4392-a002-ee90bafb46ff">
 
