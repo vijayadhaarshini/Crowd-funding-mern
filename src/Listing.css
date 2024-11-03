@@ -1,0 +1,171 @@
+/* App.css */
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-image: linear-gradient(to bottom, #E6F7F9, #E6F7F9); /* Light aqua background for a fresh, calming base */
+  margin: 0;
+  padding: 0;
+  color: #2C3E50; /* Deep charcoal gray for primary text */
+}
+
+.profile-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #FAF3E3; /* Soft sandy beige background for sections */
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FAF3E3; /* Soft sandy beige background */
+  color: #2C3E50; /* Deep charcoal gray for primary text */
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #DADFE3; /* Light, translucent gray border */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+header input[type="search"],
+header select {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #DADFE3; /* Light, translucent gray border */
+  border-radius: 5px;
+  background-color: #F0F9FA; /* Misty white-blue background */
+  color: #2C3E50; /* Deep charcoal gray for primary text */
+}
+
+header button {
+  padding: 8px 16px;
+  background-color: #D1EFE7; /* Very pale sea green background */
+  color: #2C3E50; /* Deep charcoal gray for primary text */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+header button:hover {
+  background-color: linear-gradient(to bottom, #D1EFE7, #A0D7D3); /* Subtle gradient to light teal on hover */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Main Content Styles */
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* Project Card Styles */
+.project-card {
+  background-color: #FAF3E3; /* Soft sandy beige background */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  border: 1px solid #DADFE3; /* Light, translucent gray border */
+}
+
+.project-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow on hover */
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.project-card h2 {
+  font-size: 1.5rem;
+  color: #38A3A5; /* Ocean teal for title */
+  margin: 10px 0;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* Faint text shadow */
+}
+
+.project-card p {
+  color: #57657B; /* Softer slate gray for secondary text */
+  margin: 5px 0;
+}
+
+.project-card progress {
+  width: 100%;
+  height: 10px;
+  margin-top: 10px;
+  background-color: #FAF3E3; /* Soft sandy beige background */
+  border: 1px solid #DADFE3; /* Light, translucent gray border */
+}
+
+/* Buttons and Share Icons */
+.project-card button {
+  padding: 8px 16px;
+  margin-top: 10px;
+  background-color: #D1EFE7; /* Very pale sea green background */
+  background-image: linear-gradient(to bottom, #D1EFE7, #A0D7D3); /* No gradient */
+  color: #2C3E50; /* Deep charcoal gray for primary text */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.project-card button:hover {
+  background-color: linear-gradient(to bottom, #D1EFE7, #A0D7D3); /* Subtle gradient to light teal on hover */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.share-icons button {
+  background: none;
+  border: none;
+  color: #17d5d8; /* Ocean teal for icons */
+  font-size: 1.2rem;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.share-icons button:hover {
+  color: #FF6B6B; /* Coral pink on hover */
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #FAF3E3; /* Soft sandy beige background */
+  color: #2C3E50; /* Deep charcoal gray for primary text */
+  border-radius: 8px;
+  margin-top: 20px;
+  border: 1px solid #DADFE3; /* Light, translucent gray border */
+}
+
+footer p {
+  margin: 0;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+footer ul li {
+  margin: 0 10px;
+}
+
+footer ul li a {
+  color: #2C3E50; /* Deep charcoal gray for primary text */
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+  color: #38A3A5; /* Ocean teal on hover */
+}
