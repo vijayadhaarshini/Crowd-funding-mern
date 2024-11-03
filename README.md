@@ -20,6 +20,13 @@ LISTING PAGE:
 
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/50966c1a-c0e6-435d-9490-ce7f4be8cfca">
 
+PROFILE PAGE:
+
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/6678505b-134e-4741-9eb0-47501a9c6282">
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/056021aa-16cd-4392-a002-ee90bafb46ff">
+
+
+
 
 
 
