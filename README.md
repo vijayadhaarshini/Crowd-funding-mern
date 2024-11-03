@@ -19,6 +19,7 @@ START PROJECT PAGE:
 DATABASE:
 
 COLLECTIONS:
+
 ![Screenshot from 2024-11-03 11-16-52](https://github.com/user-attachments/assets/b3967dd2-a52d-4d31-b5d7-0491d58906b8)
 
 
